@@ -5,7 +5,7 @@ trigger:
      - master
   paths:
     include:
-     - AntidoteVerifier/*
+     - 'Antidote*Verifier/*'
  
 pool: Studio-OX
  
@@ -17,4 +17,4 @@ variables:
   artifactName: 'AntidoteVerifier.sdlplugin'
 
 steps:
-  - template: include-buid-steps.yml
+  - template: buid-sdlplugin.yml
