@@ -2,6 +2,8 @@
 
 
 
+
+
 Antidote, from Druide informatique, is an advanced collection of language tools for French and English, including a spelling and grammar checking tool that integrates with MSWord and a variety of other applications. 
 
 
