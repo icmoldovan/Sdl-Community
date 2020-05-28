@@ -5,7 +5,7 @@ trigger:
      - master
   paths:
     include:
-     - 'Antidote*/*'
+     - 'Antidote*'
  
 pool: Studio-OX
  
