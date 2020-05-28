@@ -13,7 +13,7 @@ variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
   solution : '**/Sdl.Community.AntidoteVerifier.sln'
-  pluginName: 'AntidoteVerifier'
+  pluginName: 'Antidote Verifier/Sdl.Community.AntidoteVerifier'
   artifactName: 'AntidoteVerifier.sdlplugin'
 
 steps:
