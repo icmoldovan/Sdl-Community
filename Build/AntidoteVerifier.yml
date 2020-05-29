@@ -1,20 +1,20 @@
-  
 trigger:
   branches:
     include:
      - master
   paths:
     include:
-     - Antidote_Verifier/*
- 
+     - '$(solutionPath)'
+
 pool: Studio-OX
- 
+
 variables:
+  solutionPath: 'AHK plugin/*'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  solution : '**/Sdl.Community.AntidoteVerifier.sln'
-  pluginName: 'Antidote Verifier/Sdl.Community.AntidoteVerifier/Sdl.Community.AntidoteVerifier'
-  artifactName: 'AntidoteVerifier.sdlplugin'
+  solution : '**/Sdl.Community.AhkPlugin.sln'
+  pluginName: 'AHK plugin'
+  artifactName: 'Sdl.Community.AHKPlugin.sdlplugin'
 
 steps:
   - template: buid-sdlplugin.yml
