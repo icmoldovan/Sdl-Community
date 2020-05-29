@@ -16,4 +16,4 @@ variables:
   artifactName: 'Sdl.Community.XmlReader.sdlplugin'
 
 steps:
-  - template: build-sdlplugin.yml
+  - template: buid-sdlplugin.yml
