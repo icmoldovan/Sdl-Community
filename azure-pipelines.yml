@@ -4,7 +4,7 @@ trigger:
      - master
   paths:
     include:
-     - XML*
+     - 'Xml Reader'
 
 pool: mypool
 
@@ -16,4 +16,4 @@ variables:
   artifactName: 'Sdl.Community.XmlReader.sdlplugin'
 
 steps:
-  - template: build-sdlplugin.yml
+  - template: Build/build-sdlplugin.yml
