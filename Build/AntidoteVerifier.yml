@@ -6,7 +6,7 @@ trigger:
     include:
      - '$(solutionPath)'
 
-pool: Studio-OX
+pool: mypool
 
 variables:
   solutionPath: 'AHK plugin/*'
