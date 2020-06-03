@@ -14,4 +14,4 @@ variables:
   solution : '**Code samples/*.sln'
 
 steps:
-  - template: build-sdlplugin.yml
+  - template: buid-sdlplugin.yml
