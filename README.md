@@ -4,6 +4,7 @@
 
 ## Table of contents 
 
+
 1. [Intro](#intro)
 2. [Getting started](#getting-started)
 3. [List of plugins](#list-of-plugins)
